@@ -15,7 +15,12 @@ import {
     Navigator
 } from 'react-native';
 
+
 import TabNavigator from 'react-native-tab-navigator';
+
+import {
+    StackNavigator,
+} from 'react-navigation';
 
 var XMGHome = require('../Home/XMGHome');
 
@@ -91,5 +96,31 @@ const styles = StyleSheet.create({
     }
 
 });
+
+const DrawerRouteConfigs = {
+
+    Home: {
+        screen: XMGHome,
+
+    },
+
+    Mine: {
+        screen: XMGMine,
+
+    },
+
+    Shop: {
+        screen: XMGShop,
+
+    },
+
+    More: {
+        screen: XMGMore,
+
+    },
+
+}
+
+
 
 module.exports = XMGMain;
