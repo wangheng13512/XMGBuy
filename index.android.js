@@ -12,7 +12,8 @@ import {
   View
 } from 'react-native';
 
-var XMGMain = require('./Component/Main/XMGMain');
+// var XMGMain = require('./Component/Main/XMGMain');
+import XMGMain from './Component/Main/XMGMain';
 
 export default class XMGBuy extends Component {
   render() {
